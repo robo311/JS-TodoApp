@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 1em;
+    border-radius: 15px;
+    width: max-content;
+    margin: 1em;
+
+}
+
+.todo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 0.6em;
+    
+}
+
+.todo-result{
+    border: none;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    padding-left: 0.7em;
+}
+
+.todo-result:focus{
+    outline: none;
+}
+
+#remove-todo{
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#remove-todo:hover{
+    border: 1px solid rgb(167, 165, 165);
+}
+
+.form-wrapper{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.todo-add-button{
+    position: relative;
+    right: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+.todo-add-button:hover{
+    border: 1px solid rgb(167, 165, 165);
+}
+
+.todo-text{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: .5em;
+}
+.todo-text:focus{
+    outline: none;
+}
+
+
+.todoItemRemove{
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.todoItemRemove:hover{
+    border: 1px solid rgb(167, 165, 165);
+}
